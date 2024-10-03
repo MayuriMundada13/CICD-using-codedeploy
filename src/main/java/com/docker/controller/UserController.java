@@ -10,6 +10,6 @@ public class UserController {
 
     @GetMapping("/get-user")
     public String getUser() {
-        return "Hello, Mayuri Mundada..!!";
+        return "CICD pipeline using code deploy service with AWS";
     }
 }
